@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossPlatformModule1", "CrossPlatformModule1\CrossPlatformModule1.csproj", "{307B32D3-9543-4CAE-A6D5-AB3F7CEFFD49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{46501314-AA87-4FA4-98D3-A48635E25A5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{DB8EC0BB-E642-4814-A53D-F16CD5D295C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{307B32D3-9543-4CAE-A6D5-AB3F7CEFFD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307B32D3-9543-4CAE-A6D5-AB3F7CEFFD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307B32D3-9543-4CAE-A6D5-AB3F7CEFFD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307B32D3-9543-4CAE-A6D5-AB3F7CEFFD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46501314-AA87-4FA4-98D3-A48635E25A5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46501314-AA87-4FA4-98D3-A48635E25A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46501314-AA87-4FA4-98D3-A48635E25A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46501314-AA87-4FA4-98D3-A48635E25A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8EC0BB-E642-4814-A53D-F16CD5D295C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8EC0BB-E642-4814-A53D-F16CD5D295C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8EC0BB-E642-4814-A53D-F16CD5D295C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8EC0BB-E642-4814-A53D-F16CD5D295C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

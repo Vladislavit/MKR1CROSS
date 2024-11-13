@@ -1,0 +1,25 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Solution>CrossPlatformModule1</Solution>
+        <SolutionTest>Tests</SolutionTest>
+        <SolutionPath>$(MSBuildProjectDirectory)\$(Solution)\$(Solution).csproj</SolutionPath>
+        <SolutionTestPath>$(MSBuildProjectDirectory)\$(SolutionTest)\$(SolutionTest).csproj</SolutionTestPath>
+    </PropertyGroup>
+
+    <!-- Target for building the project -->
+    <Target Name="Build">
+        <Message Text="Building project: $(SolutionPath)"/>
+        <Exec Command="dotnet build &quot;$(SolutionPath)&quot;"/>
+    </Target>
+
+    <!-- Target for running the project -->
+    <Target Name="Run">
+        <Message Text="Running project: $(SolutionPath)"/>
+        <Exec Command="dotnet run --project &quot;$(SolutionPath)&quot;"/>
+    </Target>
+    <!-- Target for testing the project -->
+    <Target Name="Test">
+        <Message Text="Testing project: $(SolutionTestPath)"/>
+        <Exec Command="dotnet test &quot;$(SolutionTestPath)&quot; --logger &quot;console;verbosity=detailed&quot;"/>
+    </Target>
+</Project>
